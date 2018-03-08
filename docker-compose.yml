@@ -31,7 +31,7 @@ services:
       retries: 5
 
   kong:
-    image: kong:latest
+    build: kong/  # image: kong:latest #not add other plugin
     container_name: kong
     depends_on:
       kong-migration:
