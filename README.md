@@ -14,3 +14,6 @@ admin:admin
 
 ## enter container
 `docker exec -it CONTAINER_ID  /bin/bash`
+
+## log path
+kong:`/usr/local/kong/logs`
